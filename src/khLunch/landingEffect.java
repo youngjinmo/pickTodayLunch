@@ -4,19 +4,38 @@ import java.util.concurrent.TimeUnit;
 
 class landingEffect {
 	
-	// request user a selection
-	public void selection() {
-		System.out.print("======================================" + "\nㅐ 1번. 그래 골라줘 || 2번. 괜찮아 사양할게. ㅐ" + "\n======================================"+" \n  너의 선택은?  ");
+	// created delay()
+	// time delay applied to printout
+	public void delay(int num) throws InterruptedException {
+		TimeUnit.MICROSECONDS.sleep(num);
 	}
 	
-	// show countdown beginning of program as fun
+	// intro 
+	// tried to look like conversation ;)
+	public void intro() throws InterruptedException {
+		System.out.println("밥고르기 힘들지?"); 
+		delay(1000000);
+		System.out.println("시간도 없는데..");
+		delay(1000000);
+		System.out.println("내가 골라줄테니까 이제 생산적인 고민만 하자");
+		delay(1000000);
+	}
+	
+	// request user a selection
+	public void selection() throws InterruptedException {
+		System.out.print("======================================" + "\nㅐ 1번. 그래 골라줘 || 2번. 괜찮아 사양할게. ㅐ" + "\n======================================");
+		delay(1500000);
+		System.out.print(" \n  너의 선택은?  ");
+	}
+	
+	// show count down beginning of program as fun
 	public void countDown(int num) throws InterruptedException {
 		
 		// initialized variable 'emp'
 		// just for visible effect
 		String emp = "";
 		
-		// printout countdown number with minor effect
+		// printout count down number with minor effect
 		for(int i=num; i>0; i--) {
 			for(int j=0; j<num; j++) {
 				emp += " ";
@@ -24,8 +43,8 @@ class landingEffect {
 			// printout
 			System.out.println(emp+(i));
 			
-			// time delay applied to printout for countdown
-			TimeUnit.MICROSECONDS.sleep(900000);
+			// time delay applied to printout for count down
+			delay(900000);
 		}
 	}
 	
@@ -46,7 +65,7 @@ class landingEffect {
 			
 			// time delay applied to printout 
 			// for look like classic printer
-			TimeUnit.MICROSECONDS.sleep(500000);
+			delay(500000);
 		}
 		
 		// divide all effects from real program

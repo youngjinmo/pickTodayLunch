@@ -1,7 +1,9 @@
 package khLunch;
 
 import java.util.Scanner;
+import java.util.Random;
 import khLunch.landingEffect;
+import khLunch.ob_restaurants;
 
 public class goThere {
 	
@@ -10,12 +12,15 @@ public class goThere {
 		// Objects what I used.
 		landingEffect ct = new landingEffect();
 		Scanner sc = new Scanner(System.in);
+		Random ran = new Random();
+		ob_restaurants pick = new ob_restaurants();
 		
 		// local variables
 		int boot;
 		
 		// program begins
-		System.out.println("밥고르기 힘들지? 시간도 없는데..\n내가 골라줄테니까 이제 생산적인 고민만 하자.");
+		ct.intro();
+		
 		// request user a selection
 		ct.selection();		
 		
@@ -26,8 +31,25 @@ public class goThere {
 		if(boot==1) {
 			// if user wants execute program
 			System.out.println("\n좋았어 기대해~");
+			
+			// time delay to show count down
+			ct.delay(500000);
+			
+			// show count down
 			ct.countDown(5);
+			
+			// generate random number as integer
+			int ranNum = ran.nextInt(5);
+			
+			// show easter egg
 			ct.welcome();
+			
+			// store a random number to String 'go'
+			String go = pick.randomPick(ranNum);
+			
+			// happy lunch
+			System.out.println("\n오늘의 점심은 \""+go+"\" 으로 선정되었어.\n즐거운 점심 되길 바란다.");
+			
 			
 		} else {
 			// if user wants quit program
