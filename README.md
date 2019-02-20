@@ -2,19 +2,13 @@
 
 
 
-[TOC]
-
-
-
 ## Ver 0.9.0
 
 프로그램의 본질과 무관한 Landing 효과에 주력했다. 왜냐고? 재밌었다. 만드는 사람이 재밌어야 프로그램을 만들 수 있다. 만드는 사람이 재미없어하면 재미없는 프로그램이 완성된다.   *그럴듯하지?*
 
 ### Demo
 
-<html>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/WxTExfJuKB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</html>
+https://youtu.be/WxTExfJuKB0
 
 <br>
 
