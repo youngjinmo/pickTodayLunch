@@ -6,9 +6,10 @@ import java.util.concurrent.TimeUnit;
 
 public class goThere {
 	
-	public static void countTime() throws InterruptedException {
-		for(int i=0; i<5; i++) {
-			System.out.println((i+1));
+	public static void countTime(int num) throws InterruptedException {
+		// 입력값으로 받은 시간만큼 카운트타임 
+		for(int i=num; i>0; i--) {
+			System.out.println((i));
 			TimeUnit.SECONDS.sleep(1);
 		}
 	}
@@ -24,15 +25,16 @@ public class goThere {
 		System.out.println("1. 그래 골라줘~\n2. 고맙지만 사양할게.");
 		boot = sc.nextInt();
 		
-//		if(boot_usr == 'Y') {
-//			boot = true;
-//		} else { boot = false; }
-//		
-//		while(!boot) {
-//			System.out.println("다시 생각해봐. 정말 너가 잘 고를 수 있을거라고 생각해? ");
-//		}
+		if(boot==1) {
+			System.out.println("좋았어 기대해~");
+			countTime(5);
+		} else {
+			System.out.println("그래 잘가라.\n비싸고 맛없는 집을 가길 바랄게.");
+		}
 		
 		
+			
+			
 		
 		
 	}
