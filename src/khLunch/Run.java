@@ -5,7 +5,7 @@ import java.util.Random;
 import khLunch.landingEffect;
 import khLunch.ob_restaurants;
 
-public class goThere {
+public class Run {
 	
 	public static void main(String[] args) throws InterruptedException {
 
