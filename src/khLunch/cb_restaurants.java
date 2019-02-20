@@ -1,6 +1,6 @@
 package khLunch;
 
-public class restaurants {
+public class cb_restaurants {
 	String name;
 	String location;
 	String category;
