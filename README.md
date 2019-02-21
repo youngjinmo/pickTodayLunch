@@ -10,7 +10,9 @@ int형 램던 난수를 switch문으로 받아서 String형의 식당이름을 �
 
 ### Demo
 
-https://youtu.be/sHPZaSA48Yg
+[![](https://lh3.googleusercontent.com/5uC4QFlQHD6aI3pv2qMISC2McEz-A2gqQZeb5cBZ_eHS7HIp0yozgYzr-yRG1ecSJs03iskGYdPsVJb48hUzgfs_uvzRIz-nTw9YGTrApUYPf8tMAWDpK0UTE4zKBde1fXfAmFwyrOJknWOB3DWGvOnGYr3nWeejNjI6N2DmdBSRBbQw1VhhwgUC3AWyuaMqfvk2wE0bLVJHjSxYxEgHNFg7cT6PISsWwbaTaFVG2POdzqfsyHAwC5lgp9U9Jdf8JB_4YQYgv77OQbaJKQearfEZ0Q0jTtpKuU_PVLTVBDACFghd9zjv6sYmtgp2wGHhFYBqeQ0i0oX8lYtjnlGIt7m-SPQNJ2Zzj4-VheMIblNbjk3z898tWuORg9spnqdTNY8nMHB3QTiGnqFDRc94GDMCJrf6yyIdObIrmBTQjr6U7FkMVaFYpmVotO5_uXY77gLKB9iXORIz0HYlevcH7BUbOzLhHBXvu0oP3m3cM3x2KBGilBBH6D5iJytwAqTkl8kKbpRgWaaW-knSyO8v-7RrPql3JWlCpzcXwpOxIfCTOJzmgbOGvkW4OpCpeA2KcY7OA_K3lHBaY_A3bBq5Jaf-euLxdmoZbuI7Ig0Y27pts-gqki6dP3PxZJsQ-5mxwFML8TxOpSyE-WoQlFB3S9ZTmHmrKWp1=w998-h430-no)](https://youtu.be/sHPZaSA48Yg)
+
+
 
 <br>
 
