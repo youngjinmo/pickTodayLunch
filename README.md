@@ -18,7 +18,7 @@ int형 램던 난수를 switch문으로 받아서 String형의 식당이름을 �
 
 ### Issue
 
-Not still raised.
+Not yet.
 
 <br>
 
