@@ -29,6 +29,7 @@ class landingEffect {
 			arr[9] = "\n";
 		print_chat(arr);
 	}
+	
 
 	// String array for  시간도 없는데..\n
 	public void chat_1() throws InterruptedException {
@@ -39,6 +40,7 @@ class landingEffect {
 			arr[9]="."; arr[10] = "\n";
 		print_chat(arr);
 	}
+	
 
 	// String array for  내가 골라줄테니까 이제 생산적인 고민만 하자!\n
 	public void chat_2() throws InterruptedException {
@@ -54,6 +56,7 @@ class landingEffect {
 			arr[24]="!"; arr[25] = "\n";
 		print_chat(arr);
 	}
+	
 
 	// set of conversation of intro
 	// tried to look like conversation ;)
@@ -62,6 +65,7 @@ class landingEffect {
 		chat_1();
 		chat_2();
 	}
+	
 	
 	// last question for execute or quit
 	public void chat_4() throws InterruptedException {
@@ -74,6 +78,7 @@ class landingEffect {
 		print_chat(arr);
 	}
 	
+	
 	// request user a selection
 	public void selection() throws InterruptedException {
 		delay(500000);
@@ -81,6 +86,7 @@ class landingEffect {
 		delay(1500000);
 		chat_4();
 	}
+	
 	
 	// show count down beginning of program as fun
 	public void countDown(int num) throws InterruptedException {
